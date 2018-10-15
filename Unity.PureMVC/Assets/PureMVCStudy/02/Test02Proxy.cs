@@ -17,6 +17,7 @@ public class Test02Proxy : Proxy
     {
         Data.Level += change;
         SendNotification(NotificationConstant.LevelChange, Data);
+        
     }
 
 }
